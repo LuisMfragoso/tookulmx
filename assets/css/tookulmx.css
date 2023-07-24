@@ -133,7 +133,7 @@ body {
 }
 
 .main-button a {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   background-color: #5b03e4;
   padding: 12px 30px;
@@ -1067,7 +1067,7 @@ Infos Style
 }
 
 .infos .main-content .left-image {
-  background-image: url(../images/left-infos.jpg);
+  background-image: url(../images-tookul/left-infos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
