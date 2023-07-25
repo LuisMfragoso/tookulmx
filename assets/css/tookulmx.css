@@ -645,7 +645,7 @@ Header Style
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
   .header-area .main-nav .nav {
     height: auto;
     flex-basis: 100%;
@@ -1746,7 +1746,7 @@ Most Asked Style
   
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1080px) {
   .most-asked .accordion-head {
     padding: 1rem;
     font-size: 1.2rem;
