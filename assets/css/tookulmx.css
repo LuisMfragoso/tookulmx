@@ -1159,7 +1159,7 @@ Contact Style
 
 .contact-us::before {
   content: url(../images/contact-left.jpg);
-  top: -60px;
+  top: 42px;
   left: 0;
   position: absolute;
   width: 103px;
@@ -1169,7 +1169,7 @@ Contact Style
 
 .contact-us::after {
   content: url(../images/contact-left.jpg);
-  bottom: -90px;
+  bottom: 129px;
   right: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -1285,7 +1285,7 @@ footer p {
 }
 
 footer p a {
-  color: #2a2a2a;
+  color: #e3e6e6;
   /* transition: all .3s; */
 }
 
@@ -1500,7 +1500,7 @@ Happy Clients Style
 
 .happy-clients::after {
   content: url(../images/contact-left.jpg);
-  bottom: -90px;
+  bottom: 90px;
   right: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -2016,6 +2016,20 @@ body {
   font-size: 18px;
   color: rgb(91, 3, 228);
   font-weight: 500;
+}
+
+footer > .container {
+  min-width: 100vw;
+  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  z-index: 0;
+}
+
+footer p {
+color: aliceblue;
+}
+
+footer a {
+  color:#5b03e4;
 }
 
 /* .video-brand {
