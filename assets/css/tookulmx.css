@@ -195,7 +195,7 @@ body {
 .section-heading h2 {
   color: #2a2a2a;
   font-size: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-decoration: none;
   margin-bottom: 30px;
   line-height: 44px;
@@ -404,7 +404,7 @@ Header Style
   display: block;
   font-weight: 700;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -851,7 +851,7 @@ Banner Style
 .main-banner h6 {
   font-size: 20px;
   color: #5b03e4;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
 }
 
@@ -1318,7 +1318,7 @@ Page Heading Style
 .page-heading h6 {
   font-size: 20px;
   color: #5b03e4;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
 }
 
