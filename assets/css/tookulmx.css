@@ -140,7 +140,7 @@ body {
   display: inline-block;
   border-radius: 25px;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: 0.5px;
   transition: all .3s;
   position: relative;
