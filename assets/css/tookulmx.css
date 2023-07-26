@@ -396,9 +396,9 @@ Header Style
   padding-right: 30px;
 }
 
-.header-area .main-nav .nav li:nth-child(4) {
+/* .header-area .main-nav .nav li:nth-child(4) {
   padding-right: 45px !important;
-}
+} */
 
 .header-area .main-nav .nav li a {
   display: block;
