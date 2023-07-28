@@ -915,6 +915,7 @@ Services Style
   padding-right: 30px;
 }
 
+
 .services::before {
   content: url(../images-tookul/services-left_1.jpg);
   top: 120px;
@@ -2031,6 +2032,13 @@ color: aliceblue;
 
 footer a {
   color:#5b03e4;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  .services .section-heading h2 {
+    padding-top: 0px;
+  }
 }
 
 /* .video-brand {
