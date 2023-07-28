@@ -2047,6 +2047,18 @@ footer a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .main-banner {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .language1 {
+    visibility: hidden;
+  }
+}
+
 /* .video-brand {
   display: flex;
   flex-wrap: wrap;
