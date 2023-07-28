@@ -1303,7 +1303,7 @@ Page Heading Style
 */
 
 .page-heading {
-  padding: 120px 0px;
+  padding: 0px 0px;
   margin-top: 110px;
 }
 
@@ -1318,7 +1318,7 @@ Page Heading Style
 }
 
 .page-heading h6 {
-  font-size: 20px;
+  font-size: 33px;
   color: #5b03e4;
   /* text-transform: uppercase; */
   font-weight: 700;
@@ -1349,7 +1349,7 @@ Page Heading Style
 }
 
 .page-heading p {
-  padding-right: 25%;
+  /* padding-right: 25%; */
   margin-bottom: 30px;
 }
 
@@ -2057,6 +2057,20 @@ footer a {
   .language1 {
     visibility: hidden;
   }
+}
+
+.about-image {
+  height: 40vh;
+  width: 100vw;
+  background-image: url('/assets/images-tookul/about-cover_1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  border: #5b03e4;
+  border-width: 3px;
+}
+
+.about_header {
+  padding-top: 100px;
 }
 
 /* .video-brand {
