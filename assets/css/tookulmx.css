@@ -2081,3 +2081,44 @@ footer a {
   padding-top: 20vh;
 } */
 
+.container > .section-heading {
+  padding-top: 10%;
+  display: block; 
+  text-align: center;
+}
+
+.wb-container {
+  width: 100%;
+  padding-top: 1vh;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden; 
+}
+
+
+
+@keyframes brand-slider {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+  
+}
+
+.working-brands {
+  animation: 15s brand-slider infinite linear;
+  display: inline-block;
+  justify-content: center;
+}
+
+.wb-container:hover { 
+  animation-play-state: paused;
+}
+
+.working-brands > img {
+  width: 200px;
+  padding-left: 50px;
+}
+
