@@ -2122,3 +2122,10 @@ footer a {
   padding-left: 50px;
 }
 
+.main-banner h1 {
+  font-size: 33px;
+  color: #5b03e4;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
