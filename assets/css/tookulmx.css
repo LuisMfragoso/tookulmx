@@ -2121,11 +2121,22 @@ footer a {
   justify-content: center;
 }
 
+.working-brands1 {
+  animation: 30s brand-slider infinite linear;
+  display: inline-block;
+  justify-content: center;
+}
+
 .wb-container:hover { 
   animation-play-state: paused;
 }
 
 .working-brands > img {
+  width: 200px;
+  padding-left: 50px;
+}
+
+.working-brands1 > img {
   width: 200px;
   padding-left: 50px;
 }
