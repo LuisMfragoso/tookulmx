@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /assets/
+Disallow: /vendor/
+
+User-agent: *
+Allow: /public/
+
+Sitemap: https://www.tookul.mx/sitemap.xml 
