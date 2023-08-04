@@ -1,6 +1,7 @@
 User-agent: Googlebot
 Disallow: /assets/
 Disallow: /vendor/
+Disallow: /forms/
 
 User-agent: *
 Allow: /public/
